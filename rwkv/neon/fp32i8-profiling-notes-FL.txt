@@ -1,0 +1,55 @@
+fp32i8 profiling notes
+.4b
+
+
+--------------------------------------
+fp16i8:         REFERENCE 
+
+att time: 0.85 sec
+ffn time: 0.48 sec
+cls time: 0.03 sec
+
+ anfwd time: 0.21 sec
+att time: 0.11 sec
+ffn time: 0.07 sec
+cls time: 0.03 sec
+
+ excellentfwd time: 0.20 sec
+att time: 0.12 sec
+ffn time: 0.06 sec
+cls time: 0.03 sec
+
+ hostfwd time: 0.26 sec
+att time: 0.15 sec
+ffn time: 0.08 sec
+cls time: 0.03 sec
+
+--------------------------------------
+fp32i8:
+(v3 resdults)       ... close engojuth to fp16i8!
+ afwd time: 0.38 sec
+att time: 0.23 sec
+ffn time: 0.13 sec
+cls time: 0.03 sec
+
+ memberfwd time: 0.29 sec
+att time: 0.16 sec
+ffn time: 0.10 sec
+cls time: 0.03 sec
+
+
+--------------------------------------
+fp32i8:
+(v1 resdults) 
+University of Virginia isfwd time: 3.48 sec
+att time: 0.83 sec
+ffn time: 0.47 sec
+cls time: 2.15 sec
+
+ celebratingfwd time: 3.34 sec
+att time: 0.30 sec
+ffn time: 0.84 sec
+cls time: 2.20 sec
+
+cls really bad?? dominates???
+--------------------------------------

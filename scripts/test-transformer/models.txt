@@ -1,0 +1,12 @@
+facebook/opt-125m
+cerebras/Cerebras-GPT-111M
+EleutherAI/gpt-neo-125m
+JackFram/llama-160m
+facebook/opt-350m
+#cerebras/Cerebras-GPT-590M
+xhyi/PT_GPTNEO350_ATG
+keeeeenw/MicroLlama
+facebook/opt-1.3b
+#cerebras/Cerebras-GPT-1.3B
+EleutherAI/gpt-neo-1.3B
+TinyLlama/TinyLlama-1.1B-Chat-v1.0
