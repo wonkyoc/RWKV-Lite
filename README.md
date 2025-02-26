@@ -2,6 +2,12 @@
 
 RWKV-Lite is a suite of compression techniques to reduce the system memory usage on runtime. 
 
+* Paper: [arxiv](https://arxiv.org/abs/2412.10856)
+  
+## Based on this repo, our demo: RWKV on $30 hardware, under 3 Watt. [Demo github](https://github.com/fxlin/llm-pi-zero) 
+
+![collage2](https://github.com/user-attachments/assets/d1e47e41-1b96-4b3d-b610-0814e4e3cb6d)
+
 ## Training
 
 ### Set up environments for training
